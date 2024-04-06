@@ -24,6 +24,12 @@ nav a{
     margin: auto;
     color: azure;
 }
+nav a:hover{
+    background-color: azure;
+    color: deepskyblue;
+    border: 1px solid deepskyblue;
+    border-radius: 3px;
+}
 main{
     /* background-color: yellowgreen; */
     background-image: url(images/sunflowers-3292932_1920.jpg);
@@ -56,7 +62,7 @@ img{
     width: 200px;
     height: 200px;
     border-radius: 30px;
-    border: 2px dashed;
+    border: 2px solid;
 }
 .row{
     display: flex;
