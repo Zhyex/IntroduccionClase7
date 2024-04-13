@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0 40px;
+    background-image: url(images/building-8621170_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+header{
+    background-color: rgba(135, 206, 250,0.3);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 15px;
+}
+header img{
+    width: 80px;
+    border-radius: 30%;
+}
+.pixel{
+    background-color: blue;
+    width: 800px;
+    height: 340px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+/*Utiliza el fontsize del html */
+.rem{
+    background-color: chartreuse;
+    width: 50rem;
+    height: 21.25rem;
+    margin: 1.25rem auto;
+    padding: 1.25rem;
+    border: .0625rem solid;
+    border-radius: 1.25rem;
+    font-size: 1.2rem;
+}
+/*Utiliza el fontsize del padre contenedor */
+.em{
+    background-color: salmon;
+    width: 50em;
+    width: 50em;
+    height: 21.25em;
+    margin: 1.25em auto;
+    padding: 1.25em;
+    border: .0625em solid;
+    border-radius: 1.25em;
+    font-size: 1.4em;
+
+}
