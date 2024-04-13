@@ -57,3 +57,8 @@ header img{
     font-size: 1.4em;
 
 }
+.cuadrito{
+    width: 5cm;
+    height: 5cm;
+    background-color: green;
+}
